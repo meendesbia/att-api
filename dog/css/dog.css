@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/dog1.avif");
+}
+.container{
+    background-color: darkmagenta;
+    max-width: 800px;
+    margin-top: 18%;
+    padding: 20px;
+}
+
+.container h1{
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#dogImage{
+    width: 300px;
+    height: 300px;
+}
+
+#btnGetDogImage{
+    color: #fff;
+    background-color: darkviolet;
+}
+
+@media (max-width: 758px){
+
+}

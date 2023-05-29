@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/gato1.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+
+     
+}
+.container{
+    background-color: rgb(0, 130, 139);
+    max-width: 800px;
+    margin-top: 7%;
+    padding: 20px;
+}
+
+.container h1{
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#imagemGato{
+    width: 300px;
+    height: 300px;
+}
+
+
+@media (max-width: 758px){
+
+}

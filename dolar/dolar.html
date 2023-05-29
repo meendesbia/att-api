@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Dólar</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/dolar.css">
+</head>
+<body>
+  <center>
+
+    <div class="container">
+      <h1>Conversor de Dólar</h1>
+      <div class="cont">
+        <label for="valor-dolar">Valor em Dólar:</label>
+        <input type="number" id="valor-dolar" step="0.01" min="0">
+        <br>
+        <br>
+        <label for="moeda-destino">Moeda de Destino:</label>
+        <select id="moeda-destino">
+          <option value="BRL">Real</option>
+          <option value="EUR">Euro</option>
+          <option value="JPY">Iene Japonês</option>
+          <option value="KRW">Won Coreano</option>
+          <option value="GBP">Libra Esterlina</option>
+          <!-- Adicione outras opções de moedas conforme necessário -->
+        </select>
+        <br>
+        <br>
+        <button id="converter">Converter</button>
+        <br>
+        <br>
+        <div id="valor-convertido"></div>
+      </div>
+  </div>
+  
+</center>
+
+  <script src="js/dolar.js"></script>
+</body>
+</html>
+
+
